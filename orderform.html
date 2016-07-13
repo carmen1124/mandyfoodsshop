@@ -1,0 +1,106 @@
+<!Doctype html>
+<html>
+    <head>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    </head>
+    <body id="orderformbody">
+        <div class="banner">
+            <h1>Mandy Foods Shop</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="orderform.html">Order Form</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <!-- Keep banner and navigation on every page -->
+        </div>
+        <div class="side">
+            <img id="deal" src="images/Dealoftheweek.jpg" />
+            <img id="mango_sale" src="images/mango_sale.jpg" />
+            <img id="salad_sidebar" src="images/salad_sidebar.jpg" /> 
+        </div>
+        <div class="form">
+            <h1 class="orderhead">Shopping Cart</h1>
+            <h3 class="orderhead">Step 1 </br>Please confirm your orders</h3>
+                <div class="orderproduct">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Items </td>
+                        <td>Quantity</td>
+                        <td>Prices</td>
+                    </tr>                    
+                    <tr>
+                        <td><img class="cartimg" src="images/apple.jpg" /> </td>
+                        <td>Red Apples </td>
+                        <td>2</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td><img class="cartimg" src="images/candy1.jpg" /> </td>
+                        <td>Sour Hearts</td>
+                        <td>1</td>
+                        <td>$0.77</td>
+                    </tr>
+
+                    <tr id="total">
+                    <td colspan="3">Total</td>
+                        <td>$2.77</td>
+                    </tr>
+                    
+                </table>
+                </div>
+            <h1 class="orderhead">Order Form</h1>
+            <p class="orderhead">Please fill in the form below.</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <h3>Step 2 </br>Personal Information</h3>
+                    First Name:
+                        <input type="text" name="firstname"></br>
+                    Last Name: 
+                        <input type="text" name="lastname"></br>
+                    Address: 
+                        <input type="text" name="address"></br>
+                    City: 
+                        <input type="text" name="city"></br>
+                    State:
+                        <input type="text" name="state"></br>
+                    Zip Code: 
+                        <input type="text" name="zipcode"></br>
+                    Phone Number: 
+                        <input type="number" name="phonenumber"></br>
+                    Email Address: 
+                        <input type="email" name="emailaddress"></br>
+                    <!--Please note this is the drop down list -->
+                    <h3>Step 3 </br> Payment</h3>
+                    Payment Type:
+                        <select name="paymenttype">
+                            <option value="amex">American Express</option>
+                            <option value="master">Master Card</option>
+                            <option value="discovery">Discovery</option>
+                            <option value="visa">Visa</option>
+                            <option value="paypal">PayPal</option>
+                        </select></br>
+                    <!--This is the end of the drop down list -->
+                    Card Number:
+                        <input type="number" name="cardnumber"></br>
+                    Expiration Date: 
+                        <input type="text" name="edate"></br>
+                    CVV Number:
+                        <input type="number" name="cvvnumber"></br>
+                    Enter your Promo Code:
+                        <input type="text" name="promocode"></br>
+                    
+                    <input type="submit" value="submit">
+                    
+                    
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,163 @@
+body{
+    margin: auto;
+    width: 960px;
+    padding: 0px;
+    background-color: lightyellow;
+}
+.banner {
+    background-image: url("images/banner_bkimg.png");
+    font-size: 3em;
+    font-family: 'Lobster', cursive, serif;
+    text-align: center;
+    color: lightyellow;
+}
+/* This is the css for the navigation bar */
+.nav ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 53px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: red;
+}
+ /* End of css for the navigation bar */
+ 
+.side {
+    float: left;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#deal {
+    width: 200px;
+}
+
+#mango_sale {
+    width: 200px;
+}
+
+#salad_sidebar {
+    width: 200px;
+}
+.main {
+    float: left;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.main h1 {
+    font-size: 2em;
+    font-family: 'Lobster', cursive, serif;
+    text-align: center;
+}
+
+/* This section is for the products page */
+
+.product table {
+    text-align: center;
+    margin-left: 30px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.product img {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+
+}
+.product th {
+    font-size: 2em;
+    font-family: 'Lobster', cursive, serif;
+}
+/* This css section below is for the Order form Page */
+
+.form h1 {
+    font-size: 2em;
+    font-family: 'Lobster', cursive, serif;
+   
+}
+
+.form {
+     text-align: right;
+     width: 550px;
+     margin-left: 250px;
+     margin-top: 20px;
+     
+}
+
+fieldset {
+    padding-right: 150px;
+}
+
+input {
+    width: 45%;
+    border-radius: 4px;
+    border: 1px solid  #555555;
+    padding: 3px 1px;
+    margin: 4px 5px;
+}
+
+input [type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.orderproduct {
+    border: 2px solid gray;
+    width: 550px;
+}
+
+ .orderproduct td {
+    text-align: right;
+    padding: 0px 30px;
+}
+
+.orderhead {
+    text-align: center;
+}
+
+.cartimg {
+    width: 100px;
+    height: 100px;
+}
+
+.orderformbody {
+    width: 550px;
+}
+
+form h3 {
+    text-align: center;
+    padding-left: 140px;
+}
+
+#total {
+    border-top: 1px solid black;
+}
+
+/* End of order form page */
+
+/*.orderproduct, td:last-child {
+    border-top: 2px solid gray;
+}*/
+
